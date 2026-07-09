@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>命中注定能够稳稳接住你的专属 AI 日报</title>
+<style>
+  :root{--paper:#f6f3ea;--ink:#1b1917;--soft:#4c483f;--accent:#c1121f;--faint:#a7a091;
+    --serif:Georgia,"Songti SC","Source Han Serif SC",serif;--sans:"Helvetica Neue","PingFang SC",system-ui,sans-serif;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:#35322e;font-family:var(--serif);color:var(--ink);line-height:1.75;}
+  .wrap{max-width:640px;margin:0 auto;background:var(--paper);min-height:100vh;padding:56px 30px 64px;}
+  .band{height:6px;background:var(--accent);margin:-56px -30px 34px;}
+  h1{font-family:"Songti SC","Source Han Serif SC",var(--serif);font-size:30px;line-height:1.3;letter-spacing:1px;margin:0 0 6px;}
+  .motto{font-family:var(--sans);font-size:12px;letter-spacing:4px;text-transform:uppercase;color:var(--soft);margin-bottom:26px;}
+  p{font-size:16px;margin:0 0 16px;}
+  .lead{font-style:italic;color:var(--soft);}
+  .cta{display:inline-block;margin:10px 0 30px;padding:12px 26px;background:var(--accent);color:#fff;
+    text-decoration:none;font-family:var(--sans);font-weight:700;letter-spacing:1px;font-size:15px;}
+  h2{font-family:var(--sans);font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase;
+    color:var(--accent);border-bottom:2px solid var(--ink);padding-bottom:4px;margin:34px 0 14px;}
+  ol{padding-left:22px;} li{margin-bottom:8px;}
+  .foot{margin-top:40px;border-top:3px double var(--ink);padding-top:16px;font-family:var(--sans);
+    font-size:12px;letter-spacing:1px;color:var(--faint);}
+  a{color:var(--accent);}
+  @media(prefers-color-scheme:dark){body{background:#1a1815;} .wrap{background:#201d19;color:#ece7dd;}
+    h1,.foot{color:inherit;} .motto,.lead{color:#b3ab9c;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="band"></div>
+  <h1>命中注定能够稳稳接住你的<br>专属 AI 日报</h1>
+  <div class="motto">命中注定 · 稳稳接住你</div>
+
+  <p class="lead">每天早上，一份为你一个人排的 AI 行业报纸。</p>
+  <p>别人的简报都在回答"今天行业发生了什么"。这份报纸多一句——<b>"这对你意味着什么"</b>：每条新闻末尾，结合你的身份、领域、目标，落到一个具体的机会或动作。</p>
+
+  <a class="cta" href="./sample.html">▶ 看一份示例样张</a>
+
+  <h2>两个不一样</h2>
+  <p><b>像报纸，不像网页。</b>衬线字体、模块化互锁版式、真实原文配图——翻它像翻一版报纸，读着不累。</p>
+  <p><b>每条落到"对你"。</b>为你一个人调；换个人、换份 profile，报纸就变成对他的。</p>
+
+  <h2>怎么变成你的</h2>
+  <ol>
+    <li>填一份 <code>profile</code>：你是谁、你的领域、目标、关注方向、报名。</li>
+    <li>每天把当天新闻 + 生成规范 + 你的 profile 交给任意一个能联网的 AI。</li>
+    <li>它产出当天属于你的那份报纸。</li>
+  </ol>
+  <p style="font-size:14px;color:var(--soft)">方法和模板都在 <a href="https://github.com/xxncode/ai-daily-for-you">GitHub 仓库</a>里（<code>PROMPT.md</code> + <code>profile.example.md</code>），欢迎 fork 成你自己的。</p>
+
+  <div class="foot">示例样张的"对你"针对虚构读者〔东京跨境电商创业者〕生成 · 换成你的 profile 即变</div>
+</div>
+</body>
+</html>
