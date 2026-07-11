@@ -3,7 +3,7 @@
 > 每天早上，一份**为你一个人**排的 AI 行业报纸。
 > 别人的简报是"今天发生了什么"；这份多一句——**"这对你意味着什么"**。
 
-[**▶ 看一份示例样张**](./sample.html)
+[**▶ 看一份示例样张**](https://xxncode.github.io/ai-daily-for-you/sample.html) ｜ [**▶ 看每天真实在跑的一份**](https://xxncode.github.io/ai-daily-8cac85/)
 
 ---
 
@@ -33,6 +33,22 @@
 ## 关于这份示例
 
 `sample.html` 里的"对你"，是针对一个**虚构读者**（东京做跨境电商的创业者）生成的，用来演示"对你"这个功能长什么样。换成你的 profile，每一句都会变。
+
+## 每天真实在跑的一份
+
+这套东西不是概念稿——我自己每天早上 7 点用它自动生成一份，已经连续在跑：
+
+**[伟大航路 · AI 日报（每日更新）](https://xxncode.github.io/ai-daily-8cac85/)**
+
+那就是把 `profile.md` 填成"我"之后的产出：选题、洞察、"对你"，全部围绕我自己的方向（AI × 日本市场 × 出海零售）生成。你点进去看到的每一期，都是当天真实自动跑出来的。
+
+## 欢迎围观和提建议
+
+看完样张或每日版，有任何想法都欢迎说——版式、选题、"对你"写得准不准、你想把它改造成什么用途：
+
+- 提建议 / 聊想法：[Discussions](https://github.com/xxncode/ai-daily-for-you/discussions)
+- 报问题：[Issues](https://github.com/xxncode/ai-daily-for-you/issues)
+- 想自己跑一份：直接 fork，照上面「怎么变成你的」三步走
 
 ---
 
